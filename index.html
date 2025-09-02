@@ -20,7 +20,7 @@
         </div>
         
         
-        <div class="flex gap-4">
+        <div class=" sm:flex gap-4">
             <div id="heart" class="flex gap-2 bg-green-200 h-10 items-center px-6 rounded-2xl">
                 <h1  class="text-bold">0</h1>
                 <img class="h-6" src="./assets/heart.png" alt="">
@@ -29,8 +29,8 @@
                 <h1 id="coin" class="text-bold">100</h1>
                 <img class="h-6" src="./assets/coin.png" alt="">
             </div>
-            <div id="copy" class="flex bg-green-600 h-10 items-center px-6 rounded-2xl">
-                <h1 class="font-bold text-white"><span>0</span> Copy</h1>
+            <div  class="flex bg-green-600 h-10 items-center px-6 rounded-2xl">
+                <h1  class="font-bold text-white"><span id="copy">0</span> Copy</h1>
             </div>
         </div>
     </header>
@@ -47,9 +47,9 @@
             </div>
         </div>
 
-        <div class="flex justify-evenly mx-10">
+        <div class="sm:flex justify-evenly mx-10">
             <!-- card parent -->
-            <div class="mt-[50px] grid grid-cols-3 gap-6 ">
+            <div class="mt-[50px] sm:grid grid-cols-3 gap-6 ">
 
                 <!-- Emergency Service -->
                 <div class="max-w-[320px] shadow-sm p-4 bg-white rounded-lg">
@@ -66,9 +66,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">General</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                        <button id="copy1" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
                             <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
-                        <button id="call-btn" class="btn btn-success w-[130px]">
+                        <button id="call-btn1" class="btn btn-success w-[130px] call-btn">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -88,9 +88,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Police</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy2" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn2" class="btn btn-success w-[130px] call-btn">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -110,9 +110,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Fire</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy3" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn3" class="btn btn-success w-[130px] call-btn">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -132,9 +132,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Health</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy4" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn4" class="btn btn-success w-[130px] call-btn">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -154,9 +154,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Help</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy5" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn5" class="btn btn-success w-[130px] call-btn">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -176,9 +176,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Government</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy6" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn6" class="btn btn-success w-[130px]">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -198,9 +198,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Electricity</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy7" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn7" class="btn btn-success w-[130px]">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -220,9 +220,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">NGO</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy8" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn8" class="btn btn-success w-[130px]">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
@@ -242,9 +242,9 @@
                         <p class="bg-zinc-200 max-w-fit p-1 rounded-lg">Transport</p>
                     </div>
                     <footer class="flex justify-between">
-                        <button style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
-                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Default</button>
-                        <button class="btn btn-success w-[130px]">
+                        <button id="copy9" style="border-color: darkgrey;" class="btn btn-outline w-[130px]">
+                            <img class="h-4 rotate-180" src="./assets/copy.png" alt="">Copy</button>
+                        <button id="call-btn9" class="btn btn-success w-[130px]">
                             <img class="h-6" src="./assets/telephone.png" alt=""><span class=" text-white font-bold">Call</span></button>
                     </footer>
                 </div>
